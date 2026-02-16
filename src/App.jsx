@@ -1,7 +1,12 @@
 import './App.css';
+import TodoProvider from './components/todoProvider';
 
 function App() {
-  return <></>;
+  return <>
+    <TodoProvider>
+    
+    </TodoProvider>
+  </>;
 }
 
 export default App;
